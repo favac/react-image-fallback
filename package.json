@@ -2,7 +2,7 @@
   "name": "react-image-fallback",
   "version": "8.0.0",
   "description": "if your image doesn't exist, fallback onto another provided image.",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
     "build": "./node_modules/babel-cli/bin/babel.js src --out-dir lib",
     "prepublishOnly": "npm run build",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/socialtables/react-image-fallback.git"
+    "url": "https://github.com/favac/react-image-fallback.git"
   },
   "keywords": [
     "react",
@@ -38,10 +38,7 @@
   ],
   "author": "Social Tables",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/socialtables/react-image-fallback/issues"
-  },
-  "homepage": "https://github.com/socialtables/react-image-fallback",
+  "homepage": "https://github.com/favac/react-image-fallback",
   "peerDependencies": {
     "react": ">=0.13"
   },
